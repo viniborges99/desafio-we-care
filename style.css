@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+
+
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 23px;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+.img-logo {
+    width: 468px;
+    height: 400px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    margin-top: -300px;
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    height: 87px;
+    margin: 32px 0 65px 0;
+
+}
+
+.button-section {
+    background: #ADFF00;
+    border-radius: 20.5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    width: 239px;
+    border: none;
+    height: 64px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media (max-width:1200px) {
+    main{
+        display: block;
+    }
+    h1 {
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 70px;
+        color: #515151;
+        margin-top: 10px;
+    }
+    h2{
+        font-size: 38px;
+    line-height:40px; 
+    }
+    p{
+        font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #848484;
+    width: 305px;
+    height: 87px;
+    margin: 32px 0 65px 0;
+    }
+}
+@media (max-width:750px){
+    header{
+        display: none;
+    }
+    .img-logo{
+        width: 300px;
+    height: 300px;
+    margin: 120px auto;
+    display: block;
+    }
+    section{
+        display: block;
+       margin: 0;
+        
+    }
+    p{
+        display: none;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+      margin: 30px 0; 
+      text-align: center; 
+    }
+    .button-section{
+        display: block;
+        margin: 0 auto;
+    }
+}
